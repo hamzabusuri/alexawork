@@ -1,0 +1,38 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "jokes",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "GetJokeIntent",
+          "slots": [],
+          "samples": [
+            "who am i",
+            "joke for me please",
+            "give me a joke",
+            "i want a joke",
+            "tell me a joke"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "5"
+}
